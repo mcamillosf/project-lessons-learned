@@ -152,3 +152,7 @@ table , th , td {
   color: blue;
   padding: 20px;
 }
+
+#listas li:hover {
+  background-color: black;
+}
