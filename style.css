@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-size: 16px;
+  font-family: Koho, sans-serif;
+  color: rgb(255, 0, 128);
+  line-height: 25px;
+  font-weight: 600;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: blueviolet;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+}
+
+#titulo {
+  padding: 20px;
+}
+
+#rodape {
+  text-decoration: none;
+  text-align: center;
+}
+
+#rodape a {
+  color: rgb(132, 11, 168);
+  font-weight: 900;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#nav-link li a {
+  color: rgb(22, 204, 22);
+  font-weight: 900;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#rodape a:hover {
+  background-color: salmon;
+}
+
+#nav-link {
+  list-style: none;
+  display: inline-block;
+}
+
+#nav-link li {
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 5px;
+  padding: 15px;
+}
+
+
+#nav-link li a:hover {
+  background-color: rgb(255, 8, 0);
+}
+
+main {
+  margin-top: 130px;
+  margin-bottom: 155px;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin: 50px 0 0 50px;
+}
+
+#listas {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+#list-feito , #list-a-fazer {
+  display: inline-block;
+}
+
+.lado-esquerdo h2 , .lado-direito h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+#artigo {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+}
+
+.lado-esquerdo {
+  width: 30%;
+  margin: 10px 0 0 100px;
+}
+
+.lado-direito {
+  width: 20%;
+  float: right;
+  margin-right: 20px;
+  position: absolute;
+  right: 100px;
+  bottom: 35px;
+}
+
+table , th , td {
+  border: 1px solid blueviolet;
+  border-collapse: collapse;
+}
+
+#tabela {
+  padding: 30px;
+  width: 700px;
+}
+
+#tabela tr {
+  text-align: center;
+}
+
+#table-content {
+  width: fit-content;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#centraliza p {
+  margin: 0 0 50px 50px;
+}
+
+#listas h2 {
+  color: blue;
+  padding: 20px;
+}
