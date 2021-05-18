@@ -47,6 +47,13 @@ body {
   border-radius: 50%;
 }
 
+#centraliza p a {
+  color: rgb(255, 0, 128);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 50%;
+}
+
 #rodape a:hover {
   background-color: salmon;
 }
@@ -135,6 +142,10 @@ table , th , td {
 
 #centraliza p {
   margin: 0 0 50px 50px;
+}
+
+#centraliza p a:hover {
+  background-color: salmon;
 }
 
 #listas h2 {
